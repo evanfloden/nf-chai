@@ -1,6 +1,6 @@
 process CHAI_1 {
     tag "$meta.id"
-    label 'process_high'
+    label 'process_medium'
     conda "${moduleDir}/environment.yml"
     container 'community.wave.seqera.io/library/gcc_linux-64_python_cuda_pip_chai_lab:44cb323409492b49'
 
